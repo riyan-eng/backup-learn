@@ -1,0 +1,142 @@
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=5 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).Login-fm (num=5 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=5 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).Login-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"13:47 WIB | 200 | 18.229174ms | GET | /example/"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).Login-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"13:48 WIB | 200 | 5.386075ms | GET | /example/"}
+{"level":"info","message":"13:48 WIB | 200 | 1.367857ms | GET | /example/"}
+{"level":"info","message":"13:48 WIB | 200 | 711.884µs | GET | /example/"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).Login-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).Login-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"14:11 WIB | 200 | 4.155486ms | GET | /example/"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).Login-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"14:14 WIB | 200 | 3.381158ms | GET | /example/"}
+{"level":"info","message":"14:14 WIB | 200 | 401.911µs | GET | /example/"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).Login-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"16:11 WIB | 200 | 13.585371ms | GET | /example/"}
+{"level":"info","message":"16:11 WIB | 200 | 686.01µs | GET | /example/"}
+{"level":"info","message":"16:12 WIB | 200 | 704.173µs | GET | /example/"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).Login-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"16:44 WIB | 200 | 4.942925ms | GET | /example/"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).Login-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"16:45 WIB | 200 | 4.445839ms | GET | /example/"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).Login-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"16:46 WIB | 200 | 3.746314ms | GET | /example/"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).Login-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"16:50 WIB | 200 | 4.989605ms | GET | /example/"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).Login-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"16:51 WIB | 200 | 4.672773ms | GET | /example/"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).Login-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).Login-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"16:56 WIB | 200 | 4.49069ms | GET | /example/"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}

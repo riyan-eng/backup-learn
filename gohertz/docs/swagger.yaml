@@ -1,0 +1,121 @@
+basePath: /
+definitions:
+  dto.AuthLogin:
+    properties:
+      email:
+        type: string
+      password:
+        type: string
+    type: object
+  dto.AuthRegister:
+    properties:
+      email:
+        type: string
+      password:
+        type: string
+      role_code:
+        type: string
+      username:
+        type: string
+    type: object
+info:
+  contact:
+    name: hertz-contrib
+    url: https://github.com/hertz-contrib
+  description: This is a demo using Hertz.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  title: HertzTest
+  version: "1.0"
+paths:
+  /auth/login/:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/dto.AuthLogin'
+      produces:
+      - application/json
+      responses: {}
+      summary: Login
+      tags:
+      - Authentication
+  /auth/register/:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/dto.AuthRegister'
+      produces:
+      - application/json
+      responses: {}
+      summary: Register
+      tags:
+      - Authentication
+  /example/:
+    get:
+      parameters:
+      - default: desc
+        description: desc/asc default(desc)
+        in: query
+        name: order
+        type: string
+      - description: search
+        in: query
+        name: search
+        type: string
+      - description: page
+        in: query
+        name: page
+        type: integer
+      - description: per_page
+        in: query
+        name: per_page
+        type: integer
+      produces:
+      - application/json
+      responses: {}
+      security:
+      - ApiKeyAuth: []
+      summary: List
+      tags:
+      - Example
+  /example/{id}/:
+    get:
+      consumes:
+      - application/json
+      parameters:
+      - description: id
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses: {}
+      security:
+      - ApiKeyAuth: []
+      summary: Detail
+      tags:
+      - Example
+schemes:
+- https
+- http
+securityDefinitions:
+  ApiKeyAuth:
+    description: Bearer access token here
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

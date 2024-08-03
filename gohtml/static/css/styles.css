@@ -1,0 +1,12 @@
+/*
+ * Custom CSS
+ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --bs-body-bg: var(--bs-gray-100);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,114 @@
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"error","message":"HERTZ: Error=tls: first record does not look like a TLS handshake, remoteAddr=127.0.0.1:36774"}
+{"level":"error","message":"HERTZ: Error=tls: first record does not look like a TLS handshake, remoteAddr=127.0.0.1:36790"}
+{"level":"error","message":"HERTZ: Error=tls: first record does not look like a TLS handshake, remoteAddr=127.0.0.1:46982"}
+{"level":"error","message":"HERTZ: Error=tls: first record does not look like a TLS handshake, remoteAddr=127.0.0.1:46986"}
+{"level":"error","message":"HERTZ: Error=tls: first record does not look like a TLS handshake, remoteAddr=127.0.0.1:48488"}
+{"level":"error","message":"HERTZ: Error=tls: first record does not look like a TLS handshake, remoteAddr=127.0.0.1:48492"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:56548"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:56554"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:56562"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:56570"}
+{"level":"info","message":"21:02 WIB | 200 | 1.066126ms | GET | /"}
+{"level":"info","message":"21:02 WIB | 404 | 31.35µs | GET | /favicon.ico"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:53236"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:53240"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:54098"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:54114"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:54122"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:54138"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:53576"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:41266"}
+{"level":"info","message":"21:18 WIB | 200 | 6.300726ms | GET | /example/"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:39450"}
+{"level":"info","message":"21:21 WIB | 200 | 662.382µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 586.734µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 965.331µs | GET | /example/"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:38294"}
+{"level":"info","message":"21:21 WIB | 200 | 658.894µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 666.598µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 648.509µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 516.526µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 707.94µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 686.273µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 526.307µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 543.46µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 588.497µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 544.844µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 520.588µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 539.833µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 513.092µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 474.819µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 567.706µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 616.899µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 571.798µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 543.186µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 542.583µs | GET | /example/"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:59716"}
+{"level":"info","message":"21:21 WIB | 200 | 3.290855ms | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 541.819µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 429 | 2.504µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 429 | 2.692µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 507.947µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 857.885µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 429 | 2.784µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 429 | 2.367µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 548.126µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 447.1µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 429 | 2.352µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 429 | 2.106µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 605.397µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 482.302µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 429 | 2.26µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 517.388µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 671.609µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 429 | 3.312µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 839.508µs | GET | /example/"}
+{"level":"info","message":"21:21 WIB | 200 | 769.242µs | GET | /example/"}
+{"level":"info","message":"21:22 WIB | 429 | 2.586µs | GET | /example/"}
+{"level":"info","message":"21:22 WIB | 429 | 2.413µs | GET | /example/"}
+{"level":"info","message":"21:22 WIB | 200 | 678.224µs | GET | /example/"}
+{"level":"info","message":"21:22 WIB | 200 | 587.61µs | GET | /example/"}
+{"level":"info","message":"21:22 WIB | 200 | 545.884µs | GET | /example/"}
+{"level":"info","message":"21:22 WIB | 200 | 565.823µs | GET | /example/"}
+{"level":"info","message":"21:22 WIB | 429 | 2.57µs | GET | /example/"}
+{"level":"info","message":"21:22 WIB | 429 | 2.394µs | GET | /example/"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}

@@ -1,0 +1,471 @@
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"error","message":"HERTZ: Error=remote error: tls: unknown certificate, remoteAddr=127.0.0.1:57418"}
+{"level":"info","message":"10:47 WIB | 200 | 54.791232ms | POST | /auth/login"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"17:57 WIB | 200 | 2.099344ms | GET | /auth/me"}
+{"level":"info","message":"17:57 WIB | 200 | 63.874µs | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"18:02 WIB | 200 | 1.957347ms | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"18:03 WIB | 200 | 1.359391ms | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"18:04 WIB | 200 | 2.256631ms | GET | /auth/me"}
+{"level":"info","message":"18:04 WIB | 200 | 53.655µs | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"18:20 WIB | 200 | 2.157209ms | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"18:21 WIB | 200 | 2.831246ms | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"18:21 WIB | 200 | 1.559641ms | GET | /auth/me"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=6 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=6 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:00 WIB | 200 | 2.629316ms | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:01 WIB | 200 | 2.070002ms | GET | /auth/me"}
+{"level":"info","message":"22:01 WIB | 200 | 47.605µs | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:02 WIB | 200 | 2.66715ms | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:03 WIB | 200 | 2.116146ms | GET | /auth/me"}
+{"level":"info","message":"22:03 WIB | 200 | 60.737µs | GET | /auth/me"}
+{"level":"info","message":"22:03 WIB | 400 | 39.706µs | GET | /auth/me"}
+{"level":"info","message":"22:03 WIB | 200 | 47.693µs | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:04 WIB | 200 | 2.439804ms | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:04 WIB | 500 | 3.615546ms | GET | /auth/me"}
+{"level":"info","message":"22:05 WIB | 500 | 84.442µs | GET | /auth/me"}
+{"level":"info","message":"22:05 WIB | 500 | 63.097µs | GET | /auth/me"}
+{"level":"info","message":"22:05 WIB | 500 | 73.474µs | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:05 WIB | 200 | 3.288249ms | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:12 WIB | 200 | 4.234608ms | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:20 WIB | 200 | 3.638564ms | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:21 WIB | 200 | 4.674011ms | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:22 WIB | 400 | 83.727µs | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:22 WIB | 400 | 53.557µs | GET | /auth/me"}
+{"level":"info","message":"22:22 WIB | 400 | 42.098µs | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:23 WIB | 400 | 62.228µs | GET | /auth/me"}
+{"level":"info","message":"22:23 WIB | 400 | 62.849µs | GET | /auth/me"}
+{"level":"info","message":"22:23 WIB | 400 | 65.194µs | GET | /auth/me"}
+{"level":"info","message":"22:23 WIB | 400 | 44.676µs | GET | /auth/me"}
+{"level":"info","message":"22:23 WIB | 400 | 42.314µs | GET | /auth/me"}
+{"level":"info","message":"22:23 WIB | 400 | 40.468µs | GET | /auth/me"}
+{"level":"info","message":"22:24 WIB | 400 | 36.728µs | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:24 WIB | 400 | 85.731µs | GET | /auth/me"}
+{"level":"info","message":"22:25 WIB | 400 | 56.472µs | GET | /auth/me"}
+{"level":"info","message":"22:25 WIB | 400 | 37.181µs | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:25 WIB | 400 | 79.834µs | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks timeout: error=context deadline exceeded"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:26 WIB | 400 | 35.151µs | GET | /auth/me"}
+{"level":"info","message":"22:26 WIB | 400 | 39.008µs | GET | /auth/me"}
+{"level":"info","message":"22:26 WIB | 200 | 3.259663ms | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:29 WIB | 401 | 74.734µs | GET | /auth/me"}
+{"level":"info","message":"22:29 WIB | 401 | 40.273µs | GET | /auth/me"}
+{"level":"info","message":"22:29 WIB | 401 | 40.846µs | GET | /auth/me"}
+{"level":"info","message":"22:29 WIB | 401 | 25.775µs | GET | /auth/me"}
+{"level":"info","message":"22:30 WIB | 400 | 2.877521ms | POST | /auth/login"}
+{"level":"info","message":"22:30 WIB | 200 | 84.616082ms | POST | /auth/login"}
+{"level":"info","message":"22:30 WIB | 200 | 428.104µs | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:36 WIB | 200 | 1.93575ms | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/ping                     --> handlerName=main.PingHandler (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/docs/*any                --> handlerName=github.com/hertz-contrib/swagger.CustomWrapHandler.func1 (num=2 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/                         --> handlerName=gohertz/internal/api.(*ServiceServer).Index-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/login               --> handlerName=gohertz/internal/api.(*ServiceServer).AuthLogin-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=POST   absolutePath=/auth/register            --> handlerName=gohertz/internal/api.(*ServiceServer).AuthRegister-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/auth/me                  --> handlerName=gohertz/internal/api.(*ServiceServer).AuthMe-fm (num=8 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/                 --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleList-fm (num=7 handlers)"}
+{"level":"debug","message":"HERTZ: Method=GET    absolutePath=/example/:id              --> handlerName=gohertz/internal/api.(*ServiceServer).ExampleDetail-fm (num=7 handlers)"}
+{"level":"info","message":"HERTZ: Using network library=standard"}
+{"level":"info","message":"HERTZ: HTTP server listening on address=[::]:3000"}
+{"level":"info","message":"22:37 WIB | 200 | 3.085718ms | GET | /auth/me"}
+{"level":"info","message":"HERTZ: Received signal: interrupt\n"}
+{"level":"info","message":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds..."}
+{"level":"error","message":"HERTZ: Error=accept tcp [::]:3000: use of closed network connection"}
+{"level":"info","message":"HERTZ: Execute OnShutdownHooks finish"}
